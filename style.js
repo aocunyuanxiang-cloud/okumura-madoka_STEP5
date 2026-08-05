@@ -3,7 +3,7 @@ const displayButton = document.getElementById('displayButton');
 const output = document.getElementById('output');
 displayButton.addEventListener('click', function(){
     if(input.value === ''){
-        output.textContent = '入力値が空です。';
+        alert("入力値が空です。");
     }else{
         output.textContent = input.value;
         output.classList.toggle('highlight');
